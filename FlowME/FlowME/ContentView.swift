@@ -13,13 +13,16 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, world!")
-            Text"Test git flow")
+            factoryUI()
         }
         .padding()
     }
 }
 
+
+func factoryUI() -> some View {
+    Text("Hello develop")
+}
 #Preview {
     ContentView()
 }
